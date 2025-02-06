@@ -37,7 +37,7 @@ class ApiProductController extends Controller
         return response()->json([
             'status' => true,
             'message' => 'Producto creado correctamente',
-            'product' => $producto,
+            'product' => $producto, 
         ]);
     }
 
